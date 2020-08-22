@@ -1,0 +1,155 @@
+<?php
+/**
+ * The Template for displaying product archives, including the main shop page which is a post type archive
+ *
+ * This template can be overridden by copying it to yourtheme/woocommerce/archive-product.php.
+ *
+ * HOWEVER, on occasion WooCommerce will need to update template files and you
+ * (the theme developer) will need to copy the new files to your theme to
+ * maintain compatibility. We try to do this as little as possible, but it does
+ * happen. When this occurs the version of the template file will be bumped and
+ * the readme will list any important changes.
+ *
+ * @see 	    https://docs.woocommerce.com/document/template-structure/
+ * @author 		WooThemes
+ * @package 	WooCommerce/Templates
+ * @version     3.4.0
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+get_header( 'shop' );
+$theme_sidebar = $selfintro_data = '';
+if (function_exists( 'fw_get_db_settings_option' )):	
+	$selfintro_data = fw_get_db_settings_option();  
+endif; 
+if(!empty($selfintro_data['woocommerce_sidebar'])):
+    $theme_sidebar = $selfintro_data['woocommerce_sidebar'];
+else:
+  $theme_sidebar = 'right';
+endif;  
+$bread_image = '';
+if(!empty($selfintro_data['breadcrumbs_image']['url'])):
+  $bread_image = $selfintro_data['breadcrumbs_image']['url'];
+endif;
+$bread_color = '';
+if(!empty($selfintro_data['breadcrumbs_color'])):
+   $bread_color = $selfintro_data['breadcrumbs_color'];
+endif;
+$breadcrumbs_switch = '';
+if(!empty($selfintro_data['breadcrumbs_switch'])):
+    $breadcrumbs_switch = $selfintro_data['breadcrumbs_switch'];
+ else:
+    $breadcrumbs_switch = 'on'; 
+endif;
+if($breadcrumbs_switch == 'on'): 
+   selfintro_breadcrumb_funcation($bread_color,$bread_image);
+endif;
+?>
+<div id="primary" class="content-area">
+  <main id="main" class="site-main">
+	<div class="container">
+		<div class="row">
+<?php
+/**
+ * Hook: woocommerce_before_main_content.
+ *
+ * @hooked woocommerce_output_content_wrapper - 10 (outputs opening divs for the content)
+ * @hooked woocommerce_breadcrumb - 20
+ * @hooked WC_Structured_Data::generate_website_data() - 30
+ */
+do_action( 'woocommerce_before_main_content' );
+
+/**
+ * Hook: woocommerce_archive_description.
+ *
+ * @hooked woocommerce_taxonomy_archive_description - 10
+ * @hooked woocommerce_product_archive_description - 10
+ */
+do_action( 'woocommerce_archive_description' );
+if($theme_sidebar == 'full'):
+    		   echo '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">';
+    		else:
+    		  if($theme_sidebar == 'left'): 
+    		      echo '<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 col-lg-push-3 col-md-push-3">';
+    		  else:
+    		     echo '<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">';
+    		  endif;
+    	    endif;	
+if ( have_posts() ) {
+
+	/**
+	 * Hook: woocommerce_before_shop_loop.
+	 *
+	 * @hooked wc_print_notices - 10
+	 * @hooked woocommerce_result_count - 20
+	 * @hooked woocommerce_catalog_ordering - 30
+	 */
+	do_action( 'woocommerce_before_shop_loop' );
+
+	woocommerce_product_loop_start();
+
+	if ( wc_get_loop_prop( 'total' ) ) {
+		while ( have_posts() ) {
+			the_post();
+
+			/**
+			 * Hook: woocommerce_shop_loop.
+			 *
+			 * @hooked WC_Structured_Data::generate_product_data() - 10
+			 */
+			do_action( 'woocommerce_shop_loop' );
+
+			wc_get_template_part( 'content', 'product' );
+		}
+	}
+
+	woocommerce_product_loop_end();
+
+	/**
+	 * Hook: woocommerce_after_shop_loop.
+	 *
+	 * @hooked woocommerce_pagination - 10
+	 */
+	do_action( 'woocommerce_after_shop_loop' );
+} else {
+	/**
+	 * Hook: woocommerce_no_products_found.
+	 *
+	 * @hooked wc_no_products_found - 10
+	 */
+	do_action( 'woocommerce_no_products_found' );
+}
+?>
+</div>
+<?php if($theme_sidebar == 'left'):  ?> 
+	<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-lg-pull-9 col-md-pull-9">
+     <?php get_sidebar('product'); ?> 
+    </div>
+<?php endif; ?>
+<?php if($theme_sidebar == 'right'):  ?> 
+ <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
+    <?php get_sidebar('product'); ?>
+</div>
+<?php endif; 
+/**
+ * Hook: woocommerce_after_main_content.
+ *
+ * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
+ */
+do_action( 'woocommerce_after_main_content' );
+
+/**
+ * Hook: woocommerce_sidebar.
+ *
+ * @hooked woocommerce_get_sidebar - 10
+ */
+//do_action( 'woocommerce_sidebar' );
+?>
+  </div>
+ </div>
+</div>
+<?php
+get_footer( 'shop' );

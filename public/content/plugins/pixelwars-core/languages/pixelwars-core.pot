@@ -1,0 +1,935 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pixelwars Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Mon Dec 25 2017 09:53:40 GMT+0300 (Türkiye Standart "
+"Saati)\n"
+"POT-Revision-Date: Mon Dec 25 2017 09:53:50 GMT+0300 (Türkiye Standart "
+"Saati)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../admin/themes/life/meta-box-featured-media.php:11 ..
+#: /admin/themes/life/widget-social-media-icon.php:66 ../admin/themes/nfolio/meta-
+#: box-featured-media.php:13 ../admin/themes/nfolio/widget-button.php:31 ..
+#: /admin/themes/nfolio/widget-social-media-icon.php:61
+msgid "URL"
+msgstr ""
+
+#: ../admin/themes/life/meta-box-featured-media.php:19
+msgid "Open In New Tab"
+msgstr ""
+
+#: ../admin/themes/life/meta-box-featured-media.php:19
+msgid "(for Link format)"
+msgstr ""
+
+#: ../admin/themes/life/meta-box-featured-media.php:26
+msgid ""
+"Audio: Just paste the browser address url of an audio from SoundCloud. This "
+"audio will be shown in place of featured image."
+msgstr ""
+
+#: ../admin/themes/life/meta-box-featured-media.php:31
+msgid ""
+"Video: Just paste the browser address url of a video from YouTube or Vimeo. "
+"This video will be shown in place of featured image."
+msgstr ""
+
+#: ../admin/themes/life/meta-box-featured-media.php:36
+msgid "Use this URL field for format; Link, Audio and Video."
+msgstr ""
+
+#: ../admin/themes/life/meta-box-featured-media.php:41
+msgid "- Link: Enter your custom url."
+msgstr ""
+
+#: ../admin/themes/life/meta-box-featured-media.php:46
+msgid ""
+"- Audio: Use browser address url of an audio from SoundCloud. This audio "
+"will be shown in a lightbox in your portfolio page."
+msgstr ""
+
+#: ../admin/themes/life/meta-box-featured-media.php:51
+msgid ""
+"- Video: Use browser address url of a video from YouTube or Vimeo. This "
+"video will be shown in a lightbox in your portfolio page."
+msgstr ""
+
+#: ../admin/themes/life/meta-box-featured-media.php:102
+msgid "Featured Audio/Video"
+msgstr ""
+
+#: ../admin/themes/life/meta-box-featured-media.php:109 ..
+#: /admin/themes/nfolio/meta-box-featured-media.php:96
+msgid "Featured Audio/Video/Link"
+msgstr ""
+
+#: ../admin/themes/life/share-links.php:9
+msgid "Share"
+msgstr ""
+
+#: ../admin/themes/life/share-links.php:15 ../admin/themes/life/share-links.php:45
+msgid "Share this post on Facebook"
+msgstr ""
+
+#: ../admin/themes/life/share-links.php:15 ../admin/themes/nfolio/widget-social-
+#: media-icon.php:27
+msgid "Facebook"
+msgstr ""
+
+#: ../admin/themes/life/share-links.php:17 ../admin/themes/life/share-links.php:49
+msgid "Currently%20reading"
+msgstr ""
+
+#: ../admin/themes/life/share-links.php:17 ../admin/themes/life/share-links.php:49
+msgid "Share this post with your followers"
+msgstr ""
+
+#: ../admin/themes/life/share-links.php:17 ../admin/themes/nfolio/widget-social-
+#: media-icon.php:28
+msgid "Twitter"
+msgstr ""
+
+#: ../admin/themes/life/share-links.php:19 ../admin/themes/nfolio/widget-social-
+#: media-icon.php:32
+msgid "Pinterest"
+msgstr ""
+
+#: ../admin/themes/life/share-links.php:21 ../admin/themes/life/share-links.php:57
+msgid "Share this post on Google+"
+msgstr ""
+
+#: ../admin/themes/life/share-links.php:21 ../admin/themes/nfolio/widget-social-
+#: media-icon.php:30
+msgid "Google+"
+msgstr ""
+
+#: ../admin/themes/life/share-links.php:23 ../admin/themes/life/share-links.php:61
+msgid "I wanted you to see this post"
+msgstr ""
+
+#: ../admin/themes/life/share-links.php:23 ../admin/themes/life/share-links.php:61
+msgid "Check out this post"
+msgstr ""
+
+#: ../admin/themes/life/share-links.php:23 ../admin/themes/life/share-links.php:61
+msgid "Email this post to a friend"
+msgstr ""
+
+#: ../admin/themes/life/share-links.php:23 ../admin/themes/nfolio/widget-contact-
+#: form.php:83
+msgid "Email"
+msgstr ""
+
+#: ../admin/themes/life/share-links.php:41
+msgid "Share This"
+msgstr ""
+
+#: ../admin/themes/life/share-links.php:53
+msgid "Pin It"
+msgstr ""
+
+#: ../admin/themes/life/widget-about-me.php:8
+msgid "(Life) About Me"
+msgstr ""
+
+#: ../admin/themes/life/widget-about-me.php:9
+msgid "About me widget."
+msgstr ""
+
+#: ../admin/themes/life/widget-about-me.php:22 ../admin/themes/life/widget-intro.
+#: php:27 ../admin/themes/life/widget-link-box.php:23 ../admin/themes/life/widget-
+#: main-slider.php:29 ../admin/themes/life/widget-social-media-feed.php:21 ..
+#: /admin/themes/life/widget-social-media-icon.php:21 ..
+#: /admin/themes/nfolio/widget-fun-fact.php:24 ../admin/themes/nfolio/widget-
+#: homepage-menu-item.php:24 ../admin/themes/nfolio/widget-process.php:24 ..
+#: /admin/themes/nfolio/widget-progress-bar.php:23 ../admin/themes/nfolio/widget-
+#: section-title.php:23 ../admin/themes/nfolio/widget-service.php:25 ..
+#: /admin/themes/nfolio/widget-timeline-title.php:23
+msgid "Title"
+msgstr ""
+
+#: ../admin/themes/life/widget-about-me.php:27 ../admin/themes/life/widget-intro.
+#: php:32 ../admin/themes/life/widget-link-box.php:28
+msgid "Image"
+msgstr ""
+
+#: ../admin/themes/life/widget-about-me.php:30 ../admin/themes/life/widget-intro.
+#: php:35 ../admin/themes/life/widget-intro.php:45 ../admin/themes/life/widget-
+#: intro.php:61 ../admin/themes/life/widget-link-box.php:31
+msgid "Browse"
+msgstr ""
+
+#: ../admin/themes/life/widget-about-me.php:37 ../admin/themes/life/widget-intro.
+#: php:71 ../admin/themes/nfolio/meta-box-portfolio-details.php:13 ..
+#: /admin/themes/nfolio/widget-service.php:30 ../admin/themes/nfolio/widget-
+#: testimonial.php:36 ../admin/themes/nfolio/widget-timeline-event.php:35
+msgid "Description"
+msgstr ""
+
+#: ../admin/themes/life/widget-about-me.php:42
+msgid "More Link URL"
+msgstr ""
+
+#: ../admin/themes/life/widget-about-me.php:47
+msgid "Style"
+msgstr ""
+
+#: ../admin/themes/life/widget-about-me.php:50
+msgid "Default"
+msgstr ""
+
+#: ../admin/themes/life/widget-about-me.php:51
+msgid "Rounded Image"
+msgstr ""
+
+#: ../admin/themes/life/widget-about-me.php:101
+msgid "more"
+msgstr ""
+
+#: ../admin/themes/life/widget-intro.php:8
+msgid "(Life) Intro"
+msgstr ""
+
+#: ../admin/themes/life/widget-intro.php:9
+msgid "Intro widget."
+msgstr ""
+
+#: ../admin/themes/life/widget-intro.php:42
+msgid "Background Image"
+msgstr ""
+
+#: ../admin/themes/life/widget-intro.php:52
+msgid "Background Embed Video"
+msgstr ""
+
+#: ../admin/themes/life/widget-intro.php:55
+msgid "YouTube, Vimeo embed code."
+msgstr ""
+
+#: ../admin/themes/life/widget-intro.php:58
+msgid "Background Self-Hosted Video"
+msgstr ""
+
+#: ../admin/themes/life/widget-intro.php:62
+msgid "MP4 video."
+msgstr ""
+
+#: ../admin/themes/life/widget-intro.php:65
+msgid "Background Parallax Video"
+msgstr ""
+
+#: ../admin/themes/life/widget-intro.php:68
+msgid "YouTube, Vimeo page url."
+msgstr ""
+
+#: ../admin/themes/life/widget-intro.php:76
+msgid "Button Text"
+msgstr ""
+
+#: ../admin/themes/life/widget-intro.php:81
+msgid "Button URL"
+msgstr ""
+
+#: ../admin/themes/life/widget-intro.php:85 ../admin/themes/life/widget-link-box.
+#: php:42 ../admin/themes/life/widget-social-media-icon.php:70
+msgid "New Tab"
+msgstr ""
+
+#: ../admin/themes/life/widget-intro.php:88 ../admin/themes/life/widget-link-box.
+#: php:45 ../admin/themes/life/widget-main-slider.php:92 ..
+#: /admin/themes/life/widget-main-slider.php:101 ../admin/themes/life/widget-main-
+#: slider.php:109 ../admin/themes/life/widget-main-slider.php:116 ..
+#: /admin/themes/life/widget-social-media-icon.php:74
+msgid "No"
+msgstr ""
+
+#: ../admin/themes/life/widget-intro.php:89 ../admin/themes/life/widget-link-box.
+#: php:46 ../admin/themes/life/widget-main-slider.php:93 ..
+#: /admin/themes/life/widget-main-slider.php:100 ../admin/themes/life/widget-main-
+#: slider.php:108 ../admin/themes/life/widget-main-slider.php:117 ..
+#: /admin/themes/life/widget-social-media-icon.php:73
+msgid "Yes"
+msgstr ""
+
+#: ../admin/themes/life/widget-link-box.php:8
+msgid "(Life) Link Box"
+msgstr ""
+
+#: ../admin/themes/life/widget-link-box.php:9
+msgid "Link box widget."
+msgstr ""
+
+#: ../admin/themes/life/widget-link-box.php:38 ../admin/themes/nfolio/widget-
+#: client.php:59
+msgid "Link URL"
+msgstr ""
+
+#: ../admin/themes/life/widget-link-box.php:50 ../admin/themes/life/widget-main-
+#: slider.php:59
+msgid "Width"
+msgstr ""
+
+#: ../admin/themes/life/widget-link-box.php:53
+msgid "25%"
+msgstr ""
+
+#: ../admin/themes/life/widget-link-box.php:54
+msgid "33%"
+msgstr ""
+
+#: ../admin/themes/life/widget-link-box.php:55 ../admin/themes/life/widget-main-
+#: slider.php:62
+msgid "50%"
+msgstr ""
+
+#: ../admin/themes/life/widget-link-box.php:56 ../admin/themes/life/widget-main-
+#: slider.php:64
+msgid "100%"
+msgstr ""
+
+#: ../admin/themes/life/widget-link-box.php:59 ../admin/themes/life/widget-main-
+#: slider.php:68
+msgid "Ratio"
+msgstr ""
+
+#: ../admin/themes/life/widget-link-box.php:62 ../admin/themes/life/widget-main-
+#: slider.php:71
+msgid "Square"
+msgstr ""
+
+#: ../admin/themes/life/widget-link-box.php:63
+msgid "Tall"
+msgstr ""
+
+#: ../admin/themes/life/widget-link-box.php:64 ../admin/themes/life/widget-main-
+#: slider.php:72
+msgid "Wide"
+msgstr ""
+
+#: ../admin/themes/life/widget-link-box.php:65 ../admin/themes/life/widget-main-
+#: slider.php:73
+msgid "Extra Wide"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:8
+msgid "(Life) Main Slider"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:9
+msgid "Display your site's posts."
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:32
+msgid "Enter title."
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:35
+msgid "Slides"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:38
+msgid "Sticky posts"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:39
+msgid "Latest posts"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:43
+msgid "Slides Count"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:48 ../admin/themes/life/widget-
+#: social-media-feed.php:40
+msgid "Show Items"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:51
+msgid "1"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:52
+msgid "2"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:53
+msgid "3"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:54
+msgid "4"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:55
+msgid "5"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:63
+msgid "75%"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:74
+msgid "Ultra Wide"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:78
+msgid "Animation"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:81
+msgid "Slide"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:82
+msgid "Fade"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:83
+msgid "Back Slide"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:84
+msgid "Go Down"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:85
+msgid "Fade Zoom"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:89
+msgid "Mouse Drag"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:97
+msgid "Nav Arrows"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:105
+msgid "Nav Dots"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:113
+msgid "Autoplay"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:121
+msgid "Autoplay Timeout"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:124
+msgid "Default: 4000 ms"
+msgstr ""
+
+#: ../admin/themes/life/widget-main-slider.php:283
+msgid "View Post"
+msgstr ""
+
+#: ../admin/themes/life/widget-social-media-feed.php:8
+msgid "(Life) Social Media Feed"
+msgstr ""
+
+#: ../admin/themes/life/widget-social-media-feed.php:9
+msgid "Social media feed."
+msgstr ""
+
+#: ../admin/themes/life/widget-social-media-feed.php:26
+msgid "User"
+msgstr ""
+
+#: ../admin/themes/life/widget-social-media-feed.php:31
+msgid "Network"
+msgstr ""
+
+#: ../admin/themes/life/widget-social-media-icon.php:8
+msgid "(Life) Social Media Icon"
+msgstr ""
+
+#: ../admin/themes/life/widget-social-media-icon.php:9 ..
+#: /admin/themes/nfolio/widget-social-media-icon.php:11
+msgid "Social media icons."
+msgstr ""
+
+#: ../admin/themes/life/widget-social-media-icon.php:26 ..
+#: /admin/themes/nfolio/widget-button.php:50 ../admin/themes/nfolio/widget-
+#: homepage-menu-item.php:53 ../admin/themes/nfolio/widget-social-media-icon.php:
+#: 24 ../admin/themes/nfolio/widget-timeline-title.php:28
+msgid "Icon"
+msgstr ""
+
+#: ../admin/themes/nfolio/meta-box-featured-media.php:24
+msgid "Open \"Link\" in new tab"
+msgstr ""
+
+#: ../admin/themes/nfolio/meta-box-featured-media.php:29
+msgid "Use this URL field for Audio, Video and Link formats."
+msgstr ""
+
+#: ../admin/themes/nfolio/meta-box-featured-media.php:34
+msgid ""
+"Audio: Use browser address url of an audio from SoundCloud. This audio will "
+"be shown in a lightbox in your portfolio page."
+msgstr ""
+
+#: ../admin/themes/nfolio/meta-box-featured-media.php:39
+msgid ""
+"Video: Use browser address url of a video from YouTube or Vimeo. This video "
+"will be shown in a lightbox in your portfolio page."
+msgstr ""
+
+#: ../admin/themes/nfolio/meta-box-featured-media.php:44
+msgid "Link: Enter your custom url."
+msgstr ""
+
+#: ../admin/themes/nfolio/meta-box-portfolio-details.php:20
+msgid "Client"
+msgstr ""
+
+#: ../admin/themes/nfolio/meta-box-portfolio-details.php:27 ..
+#: /admin/themes/nfolio/widget-timeline-event.php:40
+msgid "Date"
+msgstr ""
+
+#: ../admin/themes/nfolio/meta-box-portfolio-details.php:34
+msgid "Services"
+msgstr ""
+
+#: ../admin/themes/nfolio/meta-box-portfolio-details.php:41
+msgid "Launch Project URL"
+msgstr ""
+
+#: ../admin/themes/nfolio/meta-box-portfolio-details.php:49
+msgid "Display location"
+msgstr ""
+
+#: ../admin/themes/nfolio/meta-box-portfolio-details.php:54
+msgid "Top"
+msgstr ""
+
+#: ../admin/themes/nfolio/meta-box-portfolio-details.php:55
+msgid "Bottom"
+msgstr ""
+
+#: ../admin/themes/nfolio/meta-box-portfolio-details.php:111
+msgid "Details"
+msgstr ""
+
+#: ../admin/themes/nfolio/post-type-portfolio.php:22
+msgid "Portfolio"
+msgstr ""
+
+#: ../admin/themes/nfolio/post-type-portfolio.php:42
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../admin/themes/nfolio/post-type-portfolio.php:71
+msgid "All"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-button.php:9
+msgid "(nFolio) Button"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-button.php:11
+msgid "Button module."
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-button.php:26
+msgid "Text"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-button.php:38
+msgid "Open in new tab"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-button.php:41
+msgid "Size"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-button.php:44
+msgid "Small"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-button.php:45
+msgid "Medium"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-button.php:46
+msgid "Big"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-button.php:58 ../admin/themes/nfolio/widget-
+#: homepage-menu-item.php:61 ../admin/themes/nfolio/widget-timeline-title.php:36
+msgid "View available icons"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-client.php:9
+msgid "(nFolio) Client"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-client.php:11
+msgid "Client module."
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-client.php:35 ../admin/themes/nfolio/widget-fun-
+#: fact.php:38 ../admin/themes/nfolio/widget-map.php:50 ..
+#: /admin/themes/nfolio/widget-process.php:38 ../admin/themes/nfolio/widget-
+#: service.php:44 ../admin/themes/nfolio/widget-testimonial.php:50
+msgid "No image selected"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-client.php:43 ../admin/themes/nfolio/widget-fun-
+#: fact.php:46 ../admin/themes/nfolio/widget-map.php:58 ..
+#: /admin/themes/nfolio/widget-process.php:46 ../admin/themes/nfolio/widget-
+#: service.php:52 ../admin/themes/nfolio/widget-testimonial.php:58
+msgid "Select Image"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-client.php:55 ../admin/themes/nfolio/widget-fun-
+#: fact.php:58 ../admin/themes/nfolio/widget-map.php:70 ..
+#: /admin/themes/nfolio/widget-process.php:58 ../admin/themes/nfolio/widget-
+#: service.php:64 ../admin/themes/nfolio/widget-testimonial.php:70
+msgid "Remove Image"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-client.php:66 ../admin/themes/nfolio/widget-
+#: social-media-icon.php:68
+msgid "Open link in new tab"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-contact-form.php:9
+msgid "(nFolio) Contact Form"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-contact-form.php:11
+msgid "Contact form module."
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-contact-form.php:25
+msgid "To"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-contact-form.php:29
+msgid "Use your email to recieve contact from messages."
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-contact-form.php:32
+msgid "Subject"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-contact-form.php:36
+msgid "Define subject text."
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-contact-form.php:40
+msgid "You can see sender's name and email in Reply info."
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-contact-form.php:80 ..
+#: /admin/themes/nfolio/widget-testimonial.php:26
+msgid "Name"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-contact-form.php:86
+msgid "Leave this empty if you are a human"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-contact-form.php:89
+msgid "Message"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-contact-form.php:92
+msgid "Send"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-fun-fact.php:9
+msgid "(nFolio) Fun Fact"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-fun-fact.php:11
+msgid "Fun fact module."
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-homepage-menu-item.php:9
+msgid "(nFolio) Homepage Menu Item"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-homepage-menu-item.php:11
+msgid "Navigation menu for Homepage template."
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-homepage-menu-item.php:29
+msgid "Select Page"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-map.php:9
+msgid "(nFolio) Map"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-map.php:11
+msgid "Map module."
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-map.php:26
+msgid "Latitude"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-map.php:31
+msgid "Longitude"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-map.php:36
+msgid "Zoom"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-map.php:73
+msgid "A marker image for your location."
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-map.php:77
+msgid ""
+"Visit Google Maps online and find your location on the map then fill the "
+"inputs above."
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-map.php:82
+msgid "Fill the field: Appearance > Customize > General > Google Map API Key."
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-map.php:88
+msgid "How to Get Google Map Api Key?"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-process.php:9
+msgid "(nFolio) Process"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-process.php:11
+msgid "Process module."
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-progress-bar.php:9
+msgid "(nFolio) Progress Bar"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-progress-bar.php:11
+msgid "Progress bar module."
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-progress-bar.php:28
+msgid "Percent"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-progress-bar.php:32
+msgid "Number of value. (1 to 100)"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-section-title.php:9
+msgid "(nFolio) Section Title"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-section-title.php:11
+msgid "Section title for modules."
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-section-title.php:28
+msgid "Align"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-section-title.php:31
+msgid "Center"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-section-title.php:32
+msgid "Left"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-service.php:9
+msgid "(nFolio) Service"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-service.php:11
+msgid "Service module."
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:9
+msgid "(nFolio) Social Media Icon"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:29
+msgid "Instagram"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:31
+msgid "LinkedIn"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:33
+msgid "Flickr"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:34
+msgid "500px"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:35
+msgid "Behance"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:36
+msgid "Dribbble"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:37
+msgid "Forrst"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:38
+msgid "Skype"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:39
+msgid "YouTube"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:40
+msgid "Vimeo"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:41
+msgid "SoundCloud"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:42
+msgid "Spotify"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:43
+msgid "Last.fm"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:44
+msgid "WordPress"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:45
+msgid "Tumblr"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:46
+msgid "Blogger"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:47
+msgid "Delicious"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:48
+msgid "Digg"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:49
+msgid "GitHub"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:50
+msgid "Stack Overflow"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:51
+msgid "Foursquare"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:52
+msgid "Xing"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:53
+msgid "Weibo"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:54
+msgid "SlideShare"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:55
+msgid "VKontakte"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:56
+msgid "Vine"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-social-media-icon.php:57
+msgid "RSS"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-testimonial.php:9
+msgid "(nFolio) Testimonial"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-testimonial.php:11
+msgid "Testimonial module."
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-testimonial.php:31
+msgid "Job / Company"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-timeline-event.php:9
+msgid "(nFolio) Timeline Event"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-timeline-event.php:11
+msgid "Timeline event module."
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-timeline-event.php:25
+msgid "Department / Job"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-timeline-event.php:30
+msgid "School / Company"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-timeline-title.php:9
+msgid "(nFolio) Timeline Title"
+msgstr ""
+
+#: ../admin/themes/nfolio/widget-timeline-title.php:11
+msgid "Timeline title with icon."
+msgstr ""
+
+#. Name of the plugin
+msgid "Pixelwars Core"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://www.pixelwars.org"
+msgstr ""
+
+#. Description of the plugin
+msgid "Advanced functionalities for Pixelwars themes."
+msgstr ""
+
+#. Author of the plugin
+msgid "Pixelwars"
+msgstr ""
